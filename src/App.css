@@ -1,0 +1,21 @@
+/* App.css */
+
+/* Center the canvas container */
+.canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  /* Dark background to contrast with stars */
+  position: relative;
+}
+
+/* Optional: additional styling for the language bubbles (text) */
+.bubble {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
